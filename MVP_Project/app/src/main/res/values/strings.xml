@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">MVP_Project</string>
+    <string name="construmax">CONSTRUMAX</string>
+    <string name="organizador_de_obras_inteligente">ORGANIZADOR DE OBRAS INTELIGENTE</string>
+    <string name="lucas_mattos_amorim_rm88633">Lucas Mattos Amorim - RM88633</string>
+    <string name="carlos_victor_silveira_de_aragon_junior_rm87425">Carlos Victor Silveira de Aragon Junior - RM87425</string>
+    <string name="lucas_amancio_galeazzo_rm86759">Lucas Amancio Galeazzo - RM86759</string>
+    <string name="pedro_henrique_nascimento_da_silva_rm86759">Pedro Henrique Nascimento da Silva - RM86759</string>
+    <string name="elias_dos_santos">ELIAS DOS SANTOS</string>
+    <string name="pintor_4_5">PINTOR | 4,5</string>
+    <string name="danielle_moura">DANIELLE MOURA</string>
+    <string name="arquiteta_4_0">ARQUITETA | 4,0</string>
+    <string name="vitor_neves">VITOR NEVES</string>
+    <string name="construtor_3_5">CONSTRUTOR | 3,5</string>
+    <string name="raquel_alves">RAQUEL ALVES</string>
+    <string name="engenheira_5_0">ENGENHEIRA | 5,0</string>
+</resources>

@@ -1,0 +1,1876 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/back_button"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="?android:attr/selectableItemBackground"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.096"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.024"
+        />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        app:cardBackgroundColor="@color/yellow"
+        app:cardCornerRadius="35dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.096"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.024">
+
+        <FrameLayout
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/backarrow"
+            android:layout_gravity="center"
+            />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:cardBackgroundColor="@color/yellow"
+        app:cardCornerRadius="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.896"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.024">
+
+        <FrameLayout
+            android:id="@+id/img"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="@drawable/elias" />
+
+    </androidx.cardview.widget.CardView>
+
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="350dp"
+        android:layout_height="470dp"
+        android:background="@color/yellow"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.475"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.754">
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:id="@+id/text_View"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/elias_dos_santos"
+                android:textColor="#121212"
+                android:textSize="28sp"
+                android:textStyle="bold" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="28dp"
+            android:layout_marginTop="60dp">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Cronograma"
+                android:textColor="#121212"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="18dp"
+            android:layout_marginTop="88dp">
+
+            <FrameLayout
+                android:layout_width="120dp"
+                android:layout_height="5dp"
+                android:layout_gravity="center"
+                android:background="#121212" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="28dp"
+            android:layout_marginTop="106dp">
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="42dp"
+                android:layout_marginTop="2dp"
+                android:text="Jun"
+                android:textColor="#121212"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="178dp"
+                android:layout_marginTop="2dp"
+                android:text="Jul"
+                android:textColor="#121212"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="224dp"
+            android:layout_marginTop="134dp">
+
+            <FrameLayout
+                android:layout_width="42dp"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="6dp"
+                    android:layout_marginTop="32.57142857dp"
+                    android:text="Seg"
+                    android:textColor="#121212"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="6dp"
+                    android:layout_marginTop="97.71428571dp"
+                    android:text="Qua"
+                    android:textColor="#121212"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="6dp"
+                    android:layout_marginTop="162.85714285dp"
+                    android:text="Sex"
+                    android:textColor="#121212"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+
+            </FrameLayout>
+
+            <!-- COLUNA 9 -->
+
+            <Button
+                android:id="@+id/_31072022"
+                android:text="_31072022"
+                android:onClick="goToRaquel"
+                android:enabled="false"
+                android:layout_width="28dp"
+                android:layout_height="28.57142857dp"
+                android:layout_marginStart="314dp"
+                android:background="?android:attr/selectableItemBackground"
+
+                />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="28dp"
+                android:layout_height="28.57142857dp"
+                android:layout_marginStart="314dp"
+                app:cardBackgroundColor="@color/black"
+                app:cardCornerRadius="14dp">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/raquel31072022"
+                    android:layout_width="22dp"
+                    android:layout_height="22.57142857dp"
+                    android:layout_gravity="center"
+                    app:cardBackgroundColor="@color/yellow"
+                    app:cardCornerRadius="14dp" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="28dp"
+                android:layout_height="28.57142857dp"
+                android:layout_marginStart="314dp"
+                android:layout_marginTop="32.57142857dp"
+                app:cardBackgroundColor="@color/black"
+                app:cardCornerRadius="14dp">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="22dp"
+                    android:layout_height="22.57142857dp"
+                    android:layout_gravity="center"
+                    app:cardBackgroundColor="@color/yellow"
+                    app:cardCornerRadius="14dp" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="28dp"
+                android:layout_height="28.57142857dp"
+                android:layout_marginStart="314dp"
+                android:layout_marginTop="65.14285714dp"
+                app:cardBackgroundColor="@color/black"
+                app:cardCornerRadius="14dp">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="22dp"
+                    android:layout_height="22.57142857dp"
+                    android:layout_gravity="center"
+                    app:cardBackgroundColor="@color/yellow"
+                    app:cardCornerRadius="14dp" />
+            </androidx.cardview.widget.CardView>
+
+            <Button
+                android:id="@+id/_03082022"
+                android:text="_03082022"
+                android:layout_width="28dp"
+                android:layout_height="28.57142857dp"
+                android:onClick="goToElias"
+                android:enabled="false"
+                android:layout_marginStart="314dp"
+                android:layout_marginTop="97.71428571dp"
+                android:background="?android:attr/selectableItemBackground"
+
+                />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="28dp"
+                android:layout_height="28.57142857dp"
+                android:layout_marginStart="314dp"
+                android:layout_marginTop="97.71428571dp"
+                app:cardBackgroundColor="@color/black"
+                app:cardCornerRadius="14dp">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/elias03082022"
+                    android:layout_width="22dp"
+                    android:layout_height="22.57142857dp"
+                    android:layout_gravity="center"
+                    app:cardBackgroundColor="@color/yellow"
+                    app:cardCornerRadius="14dp" />
+            </androidx.cardview.widget.CardView>
+
+            <!-- COLUNA 8 -->
+
+            <Button
+                android:id="@+id/_24072022"
+                android:text="_24072022"
+                android:layout_width="28dp"
+                android:layout_height="28.57142857dp"
+                android:layout_marginStart="280dp"
+                android:onClick="goToDanielle"
+                android:enabled="false"
+                android:background="?android:attr/selectableItemBackground"
+
+                />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="28dp"
+                android:layout_height="28.57142857dp"
+                android:layout_marginStart="280dp"
+                app:cardBackgroundColor="@color/black"
+                app:cardCornerRadius="14dp">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/danielle24072022"
+                    android:layout_width="22dp"
+                    android:layout_height="22.57142857dp"
+                    android:layout_gravity="center"
+                    app:cardBackgroundColor="@color/yellow"
+                    app:cardCornerRadius="14dp" />
+            </androidx.cardview.widget.CardView>
+
+            <Button
+                android:id="@+id/_25072022"
+                android:text="_25072022"
+                android:layout_width="28dp"
+                android:layout_height="28.57142857dp"
+                android:layout_marginStart="280dp"
+                android:onClick="goToDanielle"
+                android:layout_marginTop="32.57142857dp"
+                android:enabled="false"
+                android:background="?android:attr/selectableItemBackground"
+
+                />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="28dp"
+                android:layout_height="28.57142857dp"
+                android:layout_marginStart="280dp"
+                android:layout_marginTop="32.57142857dp"
+                app:cardBackgroundColor="@color/black"
+                app:cardCornerRadius="14dp">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/danielle25072022"
+                    android:layout_width="22dp"
+                    android:layout_height="22.57142857dp"
+                    android:layout_gravity="center"
+                    app:cardBackgroundColor="@color/yellow"
+                    app:cardCornerRadius="14dp" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="28dp"
+                android:layout_height="28.57142857dp"
+                android:layout_marginStart="280dp"
+                android:layout_marginTop="65.14285714dp"
+                app:cardBackgroundColor="@color/black"
+                app:cardCornerRadius="14dp">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="22dp"
+                    android:layout_height="22.57142857dp"
+                    android:layout_gravity="center"
+                    app:cardBackgroundColor="@color/yellow"
+                    app:cardCornerRadius="14dp" />
+            </androidx.cardview.widget.CardView>
+
+            <Button
+                android:id="@+id/_27072022"
+                android:text="_27072022"
+                android:onClick="goToRaquel"
+                android:enabled="false"
+                android:layout_width="28dp"
+                android:layout_height="28.57142857dp"
+                android:layout_marginStart="280dp"
+                android:layout_marginTop="97.71428571dp"
+                android:background="?android:attr/selectableItemBackground"
+
+                />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="28dp"
+                android:layout_height="28.57142857dp"
+                android:layout_marginStart="280dp"
+                android:layout_marginTop="97.71428571dp"
+                app:cardBackgroundColor="@color/black"
+                app:cardCornerRadius="14dp">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/raquel27072022"
+                    android:layout_width="22dp"
+                    android:layout_height="22.57142857dp"
+                    android:layout_gravity="center"
+                    app:cardBackgroundColor="@color/yellow"
+                    app:cardCornerRadius="14dp" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="28dp"
+                android:layout_height="28.57142857dp"
+                android:layout_marginStart="280dp"
+                android:layout_marginTop="130.28571428dp"
+                app:cardBackgroundColor="@color/black"
+                app:cardCornerRadius="14dp">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="22dp"
+                    android:layout_height="22.57142857dp"
+                    android:layout_gravity="center"
+                    app:cardBackgroundColor="@color/yellow"
+                    app:cardCornerRadius="14dp" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="28dp"
+                android:layout_height="28.57142857dp"
+                android:layout_marginStart="280dp"
+                android:layout_marginTop="162.85714285dp"
+                app:cardBackgroundColor="@color/black"
+                app:cardCornerRadius="14dp">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="22dp"
+                    android:layout_height="22.57142857dp"
+                    android:layout_gravity="center"
+                    app:cardBackgroundColor="@color/yellow"
+                    app:cardCornerRadius="14dp" />
+            </androidx.cardview.widget.CardView>
+
+            <Button
+                android:id="@+id/_30072022"
+                android:text="_30072022"
+                android:layout_width="28dp"
+                android:layout_height="28.57142857dp"
+                android:onClick="goToElias"
+                android:enabled="false"
+                android:layout_marginStart="280dp"
+                android:layout_marginTop="195.42857142dp"
+                android:background="?android:attr/selectableItemBackground"
+
+                />
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="28dp"
+                android:layout_height="28.57142857dp"
+                android:layout_marginStart="280dp"
+                android:layout_marginTop="195.42857142dp"
+                app:cardBackgroundColor="@color/black"
+                app:cardCornerRadius="14dp">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/elias30072022"
+                    android:layout_width="22dp"
+                    android:layout_height="22.57142857dp"
+                    android:layout_gravity="center"
+                    app:cardBackgroundColor="@color/yellow"
+                    app:cardCornerRadius="14dp" />
+            </androidx.cardview.widget.CardView>
+
+            <!-- COLUNA 7 -->
+
+            <Button
+                android:id="@+id/_17072022"
+                android:text="_17072022"
+                android:onClick="goToVitor"
+                android:enabled="false"
+                android:layout_width="28dp"
+                android:layout_height="28.57142857dp"
+                android:layout_marginStart="246dp"
+                android:background="?android:attr/selectableItemBackground"
+
+                />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="28dp"
+                android:layout_height="28.57142857dp"
+                android:layout_marginStart="246dp"
+                app:cardBackgroundColor="@color/black"
+                app:cardCornerRadius="14dp">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/vitor17072022"
+                    android:layout_width="22dp"
+                    android:layout_height="22.57142857dp"
+                    android:layout_gravity="center"
+                    app:cardBackgroundColor="@color/yellow"
+                    app:cardCornerRadius="14dp" />
+            </androidx.cardview.widget.CardView>
+
+            <Button
+                android:id="@+id/_18072022"
+                android:text="_18072022"
+                android:onClick="goToVitor"
+                android:enabled="false"
+                android:layout_width="28dp"
+                android:layout_height="28.57142857dp"
+                android:layout_marginStart="246dp"
+                android:layout_marginTop="32.57142857dp"
+                android:background="?android:attr/selectableItemBackground"
+
+                />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="28dp"
+                android:layout_height="28.57142857dp"
+                android:layout_marginStart="246dp"
+                android:layout_marginTop="32.57142857dp"
+                app:cardBackgroundColor="@color/black"
+                app:cardCornerRadius="14dp">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/vitor18072022"
+                    android:layout_width="22dp"
+                    android:layout_height="22.57142857dp"
+                    android:layout_gravity="center"
+                    app:cardBackgroundColor="@color/yellow"
+                    app:cardCornerRadius="14dp" />
+            </androidx.cardview.widget.CardView>
+
+            <Button
+                android:id="@+id/_19072022"
+                android:text="_19072022"
+                android:onClick="goToVitor"
+                android:enabled="false"
+                android:layout_width="28dp"
+                android:layout_height="28.57142857dp"
+                android:layout_marginStart="246dp"
+                android:layout_marginTop="65.14285714dp"
+                android:background="?android:attr/selectableItemBackground"
+
+                />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="28dp"
+                android:layout_height="28.57142857dp"
+                android:layout_marginStart="246dp"
+                android:layout_marginTop="65.14285714dp"
+                app:cardBackgroundColor="@color/black"
+                app:cardCornerRadius="14dp">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/vitor19072022"
+                    android:layout_width="22dp"
+                    android:layout_height="22.57142857dp"
+                    android:layout_gravity="center"
+                    app:cardBackgroundColor="@color/yellow"
+                    app:cardCornerRadius="14dp" />
+            </androidx.cardview.widget.CardView>
+
+            <Button
+                android:id="@+id/_20072022"
+                android:text="_20072022"
+                android:onClick="goToVitor"
+                android:enabled="false"
+                android:layout_width="28dp"
+                android:layout_height="28.57142857dp"
+                android:layout_marginStart="246dp"
+                android:layout_marginTop="97.71428571dp"
+                android:background="?android:attr/selectableItemBackground"
+
+                />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="28dp"
+                android:layout_height="28.57142857dp"
+                android:layout_marginStart="246dp"
+                android:layout_marginTop="97.71428571dp"
+                app:cardBackgroundColor="@color/black"
+                app:cardCornerRadius="14dp">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/vitor20072022"
+                    android:layout_width="22dp"
+                    android:layout_height="22.57142857dp"
+                    android:layout_gravity="center"
+                    app:cardBackgroundColor="@color/yellow"
+                    app:cardCornerRadius="14dp" />
+            </androidx.cardview.widget.CardView>
+
+            <Button
+                android:id="@+id/_21072022"
+                android:text="_21072022"
+                android:layout_width="28dp"
+                android:layout_height="28.57142857dp"
+                android:layout_marginStart="246dp"
+                android:onClick="goToDanielle"
+                android:enabled="false"
+                android:layout_marginTop="130.28571428dp"
+                android:background="?android:attr/selectableItemBackground"
+
+                />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="28dp"
+                android:layout_height="28.57142857dp"
+                android:layout_marginStart="246dp"
+                android:layout_marginTop="130.28571428dp"
+                app:cardBackgroundColor="@color/black"
+                app:cardCornerRadius="14dp">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/danielle21072022"
+                    android:layout_width="22dp"
+                    android:layout_height="22.57142857dp"
+                    android:layout_gravity="center"
+                    app:cardBackgroundColor="@color/yellow"
+                    app:cardCornerRadius="14dp" />
+            </androidx.cardview.widget.CardView>
+
+            <Button
+                android:id="@+id/_22072022"
+                android:text="_22072022"
+                android:layout_width="28dp"
+                android:layout_height="28.57142857dp"
+                android:layout_marginStart="246dp"
+                android:onClick="goToDanielle"
+                android:enabled="false"
+                android:layout_marginTop="162.85714285dp"
+                android:background="?android:attr/selectableItemBackground"
+
+                />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="28dp"
+                android:layout_height="28.57142857dp"
+                android:layout_marginStart="246dp"
+                android:layout_marginTop="162.85714285dp"
+                app:cardBackgroundColor="@color/black"
+                app:cardCornerRadius="14dp">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/danielle22072022"
+                    android:layout_width="22dp"
+                    android:layout_height="22.57142857dp"
+                    android:layout_gravity="center"
+                    app:cardBackgroundColor="@color/yellow"
+                    app:cardCornerRadius="14dp" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="28dp"
+                android:layout_height="28.57142857dp"
+                android:layout_marginStart="246dp"
+                android:layout_marginTop="195.42857142dp"
+                app:cardBackgroundColor="@color/black"
+                app:cardCornerRadius="14dp">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="22dp"
+                    android:layout_height="22.57142857dp"
+                    android:layout_gravity="center"
+                    app:cardBackgroundColor="@color/yellow"
+                    app:cardCornerRadius="14dp" />
+            </androidx.cardview.widget.CardView>
+
+            <!-- COLUNA 6 -->
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="28dp"
+                android:layout_height="28.57142857dp"
+                android:layout_marginStart="212dp"
+                app:cardBackgroundColor="@color/black"
+                app:cardCornerRadius="14dp">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="22dp"
+                    android:layout_height="22.57142857dp"
+                    android:layout_gravity="center"
+                    app:cardBackgroundColor="@color/yellow"
+                    app:cardCornerRadius="14dp" />
+            </androidx.cardview.widget.CardView>
+
+            <Button
+                android:id="@+id/_11072022"
+                android:text="_11072022"
+                android:layout_width="28dp"
+                android:onClick="goToElias"
+                android:enabled="false"
+                android:layout_height="28.57142857dp"
+                android:layout_marginStart="212dp"
+                android:layout_marginTop="32.57142857dp"
+                android:background="?android:attr/selectableItemBackground"
+
+                />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="28dp"
+                android:layout_height="28.57142857dp"
+                android:layout_marginStart="212dp"
+                android:layout_marginTop="32.57142857dp"
+                app:cardBackgroundColor="@color/black"
+                app:cardCornerRadius="14dp">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/elias11072022"
+                    android:layout_width="22dp"
+                    android:layout_height="22.57142857dp"
+                    android:layout_gravity="center"
+                    app:cardBackgroundColor="@color/yellow"
+                    app:cardCornerRadius="14dp" />
+            </androidx.cardview.widget.CardView>
+
+            <Button
+                android:id="@+id/_12072022"
+                android:text="_12072022"
+                android:layout_width="28dp"
+                android:onClick="goToElias"
+                android:enabled="false"
+                android:layout_height="28.57142857dp"
+                android:layout_marginStart="212dp"
+                android:layout_marginTop="65.14285714dp"
+                android:background="?android:attr/selectableItemBackground"
+
+                />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="28dp"
+                android:layout_height="28.57142857dp"
+                android:layout_marginStart="212dp"
+                android:layout_marginTop="65.14285714dp"
+                app:cardBackgroundColor="@color/black"
+                app:cardCornerRadius="14dp">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/elias12072022"
+                    android:layout_width="22dp"
+                    android:layout_height="22.57142857dp"
+                    android:layout_gravity="center"
+                    app:cardBackgroundColor="@color/yellow"
+                    app:cardCornerRadius="14dp" />
+            </androidx.cardview.widget.CardView>
+
+            <Button
+                android:id="@+id/_13072022"
+                android:text="_13072022"
+                android:layout_width="28dp"
+                android:layout_height="28.57142857dp"
+                android:layout_marginStart="212dp"
+                android:onClick="goToElias"
+                android:enabled="false"
+                android:layout_marginTop="97.71428571dp"
+                android:background="?android:attr/selectableItemBackground"
+
+                />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="28dp"
+                android:layout_height="28.57142857dp"
+                android:layout_marginStart="212dp"
+                android:layout_marginTop="97.71428571dp"
+                app:cardBackgroundColor="@color/black"
+                app:cardCornerRadius="14dp">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/elias13072022"
+                    android:layout_width="22dp"
+                    android:layout_height="22.57142857dp"
+                    android:layout_gravity="center"
+                    app:cardBackgroundColor="@color/yellow"
+                    app:cardCornerRadius="14dp" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="28dp"
+                android:layout_height="28.57142857dp"
+                android:layout_marginStart="212dp"
+                android:layout_marginTop="130.28571428dp"
+                app:cardBackgroundColor="@color/black"
+                app:cardCornerRadius="14dp">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="22dp"
+                    android:layout_height="22.57142857dp"
+                    android:layout_gravity="center"
+                    app:cardBackgroundColor="@color/yellow"
+                    app:cardCornerRadius="14dp" />
+            </androidx.cardview.widget.CardView>
+
+            <Button
+                android:id="@+id/_15072022"
+                android:text="_15072022"
+                android:onClick="goToRaquel"
+                android:enabled="false"
+                android:layout_width="28dp"
+                android:layout_height="28.57142857dp"
+                android:layout_marginStart="212dp"
+                android:layout_marginTop="162.85714285dp"
+                android:background="?android:attr/selectableItemBackground"
+
+                />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="28dp"
+                android:layout_height="28.57142857dp"
+                android:layout_marginStart="212dp"
+                android:layout_marginTop="162.85714285dp"
+                app:cardBackgroundColor="@color/black"
+                app:cardCornerRadius="14dp">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/raquel15072022"
+                    android:layout_width="22dp"
+                    android:layout_height="22.57142857dp"
+                    android:layout_gravity="center"
+                    app:cardBackgroundColor="@color/yellow"
+                    app:cardCornerRadius="14dp" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="28dp"
+                android:layout_height="28.57142857dp"
+                android:layout_marginStart="212dp"
+                android:layout_marginTop="195.42857142dp"
+                app:cardBackgroundColor="@color/black"
+                app:cardCornerRadius="14dp">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="22dp"
+                    android:layout_height="22.57142857dp"
+                    android:layout_gravity="center"
+                    app:cardBackgroundColor="@color/yellow"
+                    app:cardCornerRadius="14dp" />
+            </androidx.cardview.widget.CardView>
+
+            <!-- COLUNA 5 -->
+
+            <Button
+                android:id="@+id/_03072022"
+                android:text="_03072022"
+                android:onClick="goToVitor"
+                android:enabled="false"
+                android:layout_width="28dp"
+                android:layout_height="28.57142857dp"
+                android:layout_marginStart="178dp"
+                android:background="?android:attr/selectableItemBackground"
+
+                />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="28dp"
+                android:layout_height="28.57142857dp"
+                android:layout_marginStart="178dp"
+                app:cardBackgroundColor="@color/black"
+                app:cardCornerRadius="14dp">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/vitor03072022"
+                    android:layout_width="22dp"
+                    android:layout_height="22.57142857dp"
+                    android:layout_gravity="center"
+                    app:cardBackgroundColor="@color/yellow"
+                    app:cardCornerRadius="14dp" />
+            </androidx.cardview.widget.CardView>
+
+            <Button
+                android:id="@+id/_04072022"
+                android:text="_04072022"
+                android:onClick="goToVitor"
+                android:enabled="false"
+                android:layout_width="28dp"
+                android:layout_height="28.57142857dp"
+                android:layout_marginTop="32.57142857dp"
+                android:layout_marginStart="178dp"
+                android:background="?android:attr/selectableItemBackground"
+
+                />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="28dp"
+                android:layout_height="28.57142857dp"
+                android:layout_marginStart="178dp"
+                android:layout_marginTop="32.57142857dp"
+                app:cardBackgroundColor="@color/black"
+                app:cardCornerRadius="14dp">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/vitor04072022"
+                    android:layout_width="22dp"
+                    android:layout_height="22.57142857dp"
+                    android:layout_gravity="center"
+                    app:cardBackgroundColor="@color/yellow"
+                    app:cardCornerRadius="14dp" />
+            </androidx.cardview.widget.CardView>
+
+            <Button
+                android:id="@+id/_05072022"
+                android:text="_05072022"
+                android:onClick="goToVitor"
+                android:enabled="false"
+                android:layout_width="28dp"
+                android:layout_height="28.57142857dp"
+                android:layout_marginTop="65.14285714dp"
+                android:layout_marginStart="178dp"
+                android:background="?android:attr/selectableItemBackground"
+
+                />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="28dp"
+                android:layout_height="28.57142857dp"
+                android:layout_marginStart="178dp"
+                android:layout_marginTop="65.14285714dp"
+                app:cardBackgroundColor="@color/black"
+                app:cardCornerRadius="14dp">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/vitor05072022"
+                    android:layout_width="22dp"
+                    android:layout_height="22.57142857dp"
+                    android:layout_gravity="center"
+                    app:cardBackgroundColor="@color/yellow"
+                    app:cardCornerRadius="14dp" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="28dp"
+                android:layout_height="28.57142857dp"
+                android:layout_marginStart="178dp"
+                android:layout_marginTop="97.71428571dp"
+                app:cardBackgroundColor="@color/black"
+                app:cardCornerRadius="14dp">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="22dp"
+                    android:layout_height="22.57142857dp"
+                    android:layout_gravity="center"
+                    app:cardBackgroundColor="@color/yellow"
+                    app:cardCornerRadius="14dp" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="28dp"
+                android:layout_height="28.57142857dp"
+                android:layout_marginStart="178dp"
+                android:layout_marginTop="130.28571428dp"
+                app:cardBackgroundColor="@color/black"
+                app:cardCornerRadius="14dp">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="22dp"
+                    android:layout_height="22.57142857dp"
+                    android:layout_gravity="center"
+                    app:cardBackgroundColor="@color/yellow"
+                    app:cardCornerRadius="14dp" />
+            </androidx.cardview.widget.CardView>
+
+            <Button
+                android:id="@+id/_08072022"
+                android:text="_08072022"
+                android:layout_width="28dp"
+                android:layout_height="28.57142857dp"
+                android:layout_marginStart="178dp"
+                android:onClick="goToDanielle"
+                android:enabled="false"
+                android:layout_marginTop="162.85714285dp"
+                android:background="?android:attr/selectableItemBackground"
+
+                />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="28dp"
+                android:layout_height="28.57142857dp"
+                android:layout_marginStart="178dp"
+                android:layout_marginTop="162.85714285dp"
+                app:cardBackgroundColor="@color/black"
+                app:cardCornerRadius="14dp">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/danielle08072022"
+                    android:layout_width="22dp"
+                    android:layout_height="22.57142857dp"
+                    android:layout_gravity="center"
+                    app:cardBackgroundColor="@color/yellow"
+                    app:cardCornerRadius="14dp" />
+            </androidx.cardview.widget.CardView>
+
+            <Button
+                android:id="@+id/_09072022"
+                android:text="_09072022"
+                android:layout_width="28dp"
+                android:layout_height="28.57142857dp"
+                android:layout_marginStart="178dp"
+                android:onClick="goToDanielle"
+                android:enabled="false"
+                android:layout_marginTop="195.42857142dp"
+                android:background="?android:attr/selectableItemBackground"
+
+                />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="28dp"
+                android:layout_height="28.57142857dp"
+                android:layout_marginStart="178dp"
+                android:layout_marginTop="195.42857142dp"
+                app:cardBackgroundColor="@color/black"
+                app:cardCornerRadius="14dp">
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/danielle09072022"
+                    android:layout_width="22dp"
+                    android:layout_height="22.57142857dp"
+                    android:layout_gravity="center"
+                    app:cardBackgroundColor="@color/yellow"
+                    app:cardCornerRadius="14dp" />
+            </androidx.cardview.widget.CardView>
+
+            <!-- COLUNA 4 -->
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="28dp"
+                android:layout_height="28.57142857dp"
+                android:layout_marginStart="144dp"
+                app:cardBackgroundColor="@color/black"
+                app:cardCornerRadius="14dp">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="22dp"
+                    android:layout_height="22.57142857dp"
+                    android:layout_gravity="center"
+                    app:cardBackgroundColor="@color/yellow"
+                    app:cardCornerRadius="14dp" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="28dp"
+                android:layout_height="28.57142857dp"
+                android:layout_marginStart="144dp"
+                android:layout_marginTop="32.57142857dp"
+                app:cardBackgroundColor="@color/black"
+                app:cardCornerRadius="14dp">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="22dp"
+                    android:layout_height="22.57142857dp"
+                    android:layout_gravity="center"
+                    app:cardBackgroundColor="@color/yellow"
+                    app:cardCornerRadius="14dp" />
+            </androidx.cardview.widget.CardView>
+
+            <Button
+                android:id="@+id/_28062022"
+                android:text="_28062022"
+                android:layout_width="28dp"
+                android:layout_height="28.57142857dp"
+                android:layout_marginStart="144dp"
+                android:onClick="goToElias"
+                android:enabled="false"
+                android:layout_marginTop="65.14285714dp"
+                android:background="?android:attr/selectableItemBackground"
+
+                />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="28dp"
+                android:layout_height="28.57142857dp"
+                android:layout_marginStart="144dp"
+                android:layout_marginTop="65.14285714dp"
+                app:cardBackgroundColor="@color/black"
+                app:cardCornerRadius="14dp">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/elias28062022"
+                    android:layout_width="22dp"
+                    android:layout_height="22.57142857dp"
+                    android:layout_gravity="center"
+                    app:cardBackgroundColor="@color/yellow"
+                    app:cardCornerRadius="14dp" />
+            </androidx.cardview.widget.CardView>
+
+            <Button
+                android:id="@+id/_29062022"
+                android:text="_29062022"
+                android:onClick="goToRaquel"
+                android:enabled="false"
+                android:layout_width="28dp"
+                android:layout_height="28.57142857dp"
+                android:layout_marginStart="144dp"
+                android:layout_marginTop="97.71428571dp"
+                android:background="?android:attr/selectableItemBackground"
+
+                />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="28dp"
+                android:layout_height="28.57142857dp"
+                android:layout_marginStart="144dp"
+                android:layout_marginTop="97.71428571dp"
+                app:cardBackgroundColor="@color/black"
+                app:cardCornerRadius="14dp">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/raquel29062022"
+                    android:layout_width="22dp"
+                    android:layout_height="22.57142857dp"
+                    android:layout_gravity="center"
+                    app:cardBackgroundColor="@color/yellow"
+                    app:cardCornerRadius="14dp" />
+            </androidx.cardview.widget.CardView>
+
+            <Button
+                android:id="@+id/_30062022"
+                android:text="_30062022"
+                android:onClick="goToVitor"
+                android:enabled="false"
+                android:layout_width="28dp"
+                android:layout_height="28.57142857dp"
+                android:layout_marginStart="144dp"
+                android:layout_marginTop="130.28571428dp"
+                android:background="?android:attr/selectableItemBackground"
+
+                />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="28dp"
+                android:layout_height="28.57142857dp"
+                android:layout_marginStart="144dp"
+                android:layout_marginTop="130.28571428dp"
+                app:cardBackgroundColor="@color/black"
+                app:cardCornerRadius="14dp">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/vitor30062022"
+                    android:layout_width="22dp"
+                    android:layout_height="22.57142857dp"
+                    android:layout_gravity="center"
+                    app:cardBackgroundColor="@color/yellow"
+                    app:cardCornerRadius="14dp" />
+            </androidx.cardview.widget.CardView>
+
+            <Button
+                android:id="@+id/_01072022"
+                android:text="_01072022"
+                android:onClick="goToVitor"
+                android:enabled="false"
+                android:layout_width="28dp"
+                android:layout_height="28.57142857dp"
+                android:layout_marginStart="144dp"
+                android:layout_marginTop="162.85714285dp"
+                android:background="?android:attr/selectableItemBackground"
+
+                />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="28dp"
+                android:layout_height="28.57142857dp"
+                android:layout_marginStart="144dp"
+                android:layout_marginTop="162.85714285dp"
+                app:cardBackgroundColor="@color/black"
+                app:cardCornerRadius="14dp">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/vitor01072022"
+                    android:layout_width="22dp"
+                    android:layout_height="22.57142857dp"
+                    android:layout_gravity="center"
+                    app:cardBackgroundColor="@color/yellow"
+                    app:cardCornerRadius="14dp" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="28dp"
+                android:layout_height="28.57142857dp"
+                android:layout_marginStart="144dp"
+                android:layout_marginTop="195.42857142dp"
+                app:cardBackgroundColor="@color/black"
+                app:cardCornerRadius="14dp">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="22dp"
+                    android:layout_height="22.57142857dp"
+                    android:layout_gravity="center"
+                    app:cardBackgroundColor="@color/yellow"
+                    app:cardCornerRadius="14dp" />
+            </androidx.cardview.widget.CardView>
+
+            <!-- COLUNA 3 -->
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="28dp"
+                android:layout_height="28.57142857dp"
+                android:layout_marginStart="110dp"
+                app:cardBackgroundColor="@color/black"
+                app:cardCornerRadius="14dp">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="22dp"
+                    android:layout_height="22.57142857dp"
+                    android:layout_gravity="center"
+                    app:cardBackgroundColor="@color/yellow"
+                    app:cardCornerRadius="14dp" />
+            </androidx.cardview.widget.CardView>
+
+            <Button
+                android:id="@+id/_20062022"
+                android:text="_20062022"
+                android:layout_width="28dp"
+                android:layout_height="28.57142857dp"
+                android:onClick="goToDanielle"
+                android:enabled="false"
+                android:layout_marginStart="110dp"
+                android:layout_marginTop="32.57142857dp"
+                android:background="?android:attr/selectableItemBackground"
+
+                />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="28dp"
+                android:layout_height="28.57142857dp"
+                android:layout_marginStart="110dp"
+                android:layout_marginTop="32.57142857dp"
+                app:cardBackgroundColor="@color/black"
+                app:cardCornerRadius="14dp">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/danielle20062022"
+                    android:layout_width="22dp"
+                    android:layout_height="22.57142857dp"
+                    android:layout_gravity="center"
+                    app:cardBackgroundColor="@color/yellow"
+                    app:cardCornerRadius="14dp" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="28dp"
+                android:layout_height="28.57142857dp"
+                android:layout_marginStart="110dp"
+                android:layout_marginTop="65.14285714dp"
+                app:cardBackgroundColor="@color/black"
+                app:cardCornerRadius="14dp">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="22dp"
+                    android:layout_height="22.57142857dp"
+                    android:layout_gravity="center"
+                    app:cardBackgroundColor="@color/yellow"
+                    app:cardCornerRadius="14dp" />
+            </androidx.cardview.widget.CardView>
+
+            <Button
+                android:id="@+id/_22062022"
+                android:text="_22062022"
+                android:layout_width="28dp"
+                android:layout_height="28.57142857dp"
+                android:onClick="goToElias"
+                android:enabled="false"
+                android:layout_marginStart="110dp"
+                android:layout_marginTop="97.71428571dp"
+                android:background="?android:attr/selectableItemBackground"
+
+                />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="28dp"
+                android:layout_height="28.57142857dp"
+                android:layout_marginStart="110dp"
+                android:layout_marginTop="97.71428571dp"
+                app:cardBackgroundColor="@color/black"
+                app:cardCornerRadius="14dp">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/elias22062022"
+                    android:layout_width="22dp"
+                    android:layout_height="22.57142857dp"
+                    android:layout_gravity="center"
+                    app:cardBackgroundColor="@color/yellow"
+                    app:cardCornerRadius="14dp" />
+            </androidx.cardview.widget.CardView>
+
+            <Button
+                android:id="@+id/_23062022"
+                android:text="_23062022"
+                android:layout_width="28dp"
+                android:layout_height="28.57142857dp"
+                android:onClick="goToElias"
+                android:enabled="false"
+                android:layout_marginStart="110dp"
+                android:layout_marginTop="130.28571428dp"
+                android:background="?android:attr/selectableItemBackground"
+
+                />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="28dp"
+                android:layout_height="28.57142857dp"
+                android:layout_marginStart="110dp"
+                android:layout_marginTop="130.28571428dp"
+                app:cardBackgroundColor="@color/black"
+                app:cardCornerRadius="14dp">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/elias23062022"
+                    android:layout_width="22dp"
+                    android:layout_height="22.57142857dp"
+                    android:layout_gravity="center"
+                    app:cardBackgroundColor="@color/yellow"
+                    app:cardCornerRadius="14dp" />
+            </androidx.cardview.widget.CardView>
+
+            <Button
+                android:id="@+id/_24062022"
+                android:text="_24062022"
+                android:layout_width="28dp"
+                android:layout_height="28.57142857dp"
+                android:onClick="goToElias"
+                android:enabled="false"
+                android:layout_marginStart="110dp"
+                android:layout_marginTop="162.85714285dp"
+                android:background="?android:attr/selectableItemBackground"
+
+                />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="28dp"
+                android:layout_height="28.57142857dp"
+                android:layout_marginStart="110dp"
+                android:layout_marginTop="162.85714285dp"
+                app:cardBackgroundColor="@color/black"
+                app:cardCornerRadius="14dp">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/elias24062022"
+                    android:layout_width="22dp"
+                    android:layout_height="22.57142857dp"
+                    android:layout_gravity="center"
+                    app:cardBackgroundColor="@color/yellow"
+                    app:cardCornerRadius="14dp" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="28dp"
+                android:layout_height="28.57142857dp"
+                android:layout_marginStart="110dp"
+                android:layout_marginTop="195.42857142dp"
+                app:cardBackgroundColor="@color/black"
+                app:cardCornerRadius="14dp">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="22dp"
+                    android:layout_height="22.57142857dp"
+                    android:layout_gravity="center"
+                    app:cardBackgroundColor="@color/yellow"
+                    app:cardCornerRadius="14dp" />
+            </androidx.cardview.widget.CardView>
+
+            <!-- COLUNA 2 -->
+
+            <Button
+                android:id="@+id/_12062022"
+                android:text="_12062022"
+                android:onClick="goToDanielle"
+                android:enabled="false"
+                android:layout_width="28dp"
+                android:layout_height="28.57142857dp"
+                android:layout_marginStart="76dp"
+                android:background="?android:attr/selectableItemBackground"
+
+                />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="28dp"
+                android:layout_height="28.57142857dp"
+                android:layout_marginStart="76dp"
+                app:cardBackgroundColor="@color/black"
+                app:cardCornerRadius="14dp">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/danielle12062022"
+                    android:layout_width="22dp"
+                    android:layout_height="22.57142857dp"
+                    android:layout_gravity="center"
+                    app:cardBackgroundColor="@color/yellow"
+                    app:cardCornerRadius="14dp" />
+            </androidx.cardview.widget.CardView>
+
+            <Button
+                android:id="@+id/_13062022"
+                android:text="_13062022"
+                android:onClick="goToDanielle"
+                android:enabled="false"
+                android:layout_width="28dp"
+                android:layout_height="28.57142857dp"
+                android:layout_marginStart="76dp"
+                android:layout_marginTop="32.57142857dp"
+                android:background="?android:attr/selectableItemBackground"
+
+                />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="28dp"
+                android:layout_height="28.57142857dp"
+                android:layout_marginStart="76dp"
+                android:layout_marginTop="32.57142857dp"
+                app:cardBackgroundColor="@color/black"
+                app:cardCornerRadius="14dp">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/danielle13062022"
+                    android:layout_width="22dp"
+                    android:layout_height="22.57142857dp"
+                    android:layout_gravity="center"
+                    app:cardBackgroundColor="@color/yellow"
+                    app:cardCornerRadius="14dp" />
+            </androidx.cardview.widget.CardView>
+
+            <Button
+                android:id="@+id/_14062022"
+                android:text="_14062022"
+                android:onClick="goToDanielle"
+                android:enabled="false"
+                android:layout_width="28dp"
+                android:layout_height="28.57142857dp"
+                android:layout_marginStart="76dp"
+                android:layout_marginTop="65.14285714dp"
+                android:background="?android:attr/selectableItemBackground"
+
+                />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="28dp"
+                android:layout_height="28.57142857dp"
+                android:layout_marginStart="76dp"
+                android:layout_marginTop="65.14285714dp"
+                app:cardBackgroundColor="@color/black"
+                app:cardCornerRadius="14dp">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/danielle14062022"
+                    android:layout_width="22dp"
+                    android:layout_height="22.57142857dp"
+                    android:layout_gravity="center"
+                    app:cardBackgroundColor="@color/yellow"
+                    app:cardCornerRadius="14dp" />
+            </androidx.cardview.widget.CardView>
+
+            <Button
+                android:id="@+id/_15062022"
+                android:text="_15062022"
+                android:onClick="goToRaquel"
+                android:enabled="false"
+                android:layout_width="28dp"
+                android:layout_height="28.57142857dp"
+                android:layout_marginStart="76dp"
+                android:layout_marginTop="97.71428571dp"
+                android:background="?android:attr/selectableItemBackground"
+
+                />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="28dp"
+                android:layout_height="28.57142857dp"
+                android:layout_marginStart="76dp"
+                android:layout_marginTop="97.71428571dp"
+                app:cardBackgroundColor="@color/black"
+                app:cardCornerRadius="14dp">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/raquel15062022"
+                    android:layout_width="22dp"
+                    android:layout_height="22.57142857dp"
+                    android:layout_gravity="center"
+                    app:cardBackgroundColor="@color/yellow"
+                    app:cardCornerRadius="14dp" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="28dp"
+                android:layout_height="28.57142857dp"
+                android:layout_marginStart="76dp"
+                android:layout_marginTop="130.28571428dp"
+                app:cardBackgroundColor="@color/black"
+                app:cardCornerRadius="14dp">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="22dp"
+                    android:layout_height="22.57142857dp"
+                    android:layout_gravity="center"
+                    app:cardBackgroundColor="@color/yellow"
+                    app:cardCornerRadius="14dp" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="28dp"
+                android:layout_height="28.57142857dp"
+                android:layout_marginStart="76dp"
+                android:layout_marginTop="162.85714285dp"
+                app:cardBackgroundColor="@color/black"
+                app:cardCornerRadius="14dp">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="22dp"
+                    android:layout_height="22.57142857dp"
+                    android:layout_gravity="center"
+                    app:cardBackgroundColor="@color/yellow"
+                    app:cardCornerRadius="14dp" />
+            </androidx.cardview.widget.CardView>
+
+            <Button
+                android:id="@+id/_18062022"
+                android:text="_18062022"
+                android:onClick="goToVitor"
+                android:enabled="false"
+                android:layout_width="28dp"
+                android:layout_height="28.57142857dp"
+                android:layout_marginStart="76dp"
+                android:layout_marginTop="195.42857142dp"
+                android:background="?android:attr/selectableItemBackground"
+
+                />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="28dp"
+                android:layout_height="28.57142857dp"
+                android:layout_marginStart="76dp"
+                android:layout_marginTop="195.42857142dp"
+                app:cardBackgroundColor="@color/black"
+                app:cardCornerRadius="14dp">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/vitor18062022"
+                    android:layout_width="22dp"
+                    android:layout_height="22.57142857dp"
+                    android:layout_gravity="center"
+                    app:cardBackgroundColor="@color/yellow"
+                    app:cardCornerRadius="14dp" />
+            </androidx.cardview.widget.CardView>
+
+            <!-- COLUNA 1 -->
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="28dp"
+                android:layout_height="28.57142857dp"
+                android:layout_marginStart="42dp"
+                app:cardBackgroundColor="@color/black"
+                app:cardCornerRadius="14dp">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="22dp"
+                    android:layout_height="22.57142857dp"
+                    android:layout_gravity="center"
+                    app:cardBackgroundColor="@color/yellow"
+                    app:cardCornerRadius="14dp" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="28dp"
+                android:layout_height="28.57142857dp"
+                android:layout_marginStart="42dp"
+                android:layout_marginTop="32.57142857dp"
+                app:cardBackgroundColor="@color/black"
+                app:cardCornerRadius="14dp">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="22dp"
+                    android:layout_height="22.57142857dp"
+                    android:layout_gravity="center"
+                    app:cardBackgroundColor="@color/yellow"
+                    app:cardCornerRadius="14dp" />
+            </androidx.cardview.widget.CardView>
+
+            <Button
+                android:id="@+id/_07062022"
+                android:text="_07062022"
+                android:onClick="goToElias"
+                android:enabled="false"
+                android:layout_width="28dp"
+                android:layout_height="28.57142857dp"
+                android:layout_marginStart="42dp"
+                android:layout_marginTop="65.14285714dp"
+                android:background="?android:attr/selectableItemBackground"
+
+                />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="28dp"
+                android:layout_height="28.57142857dp"
+                android:layout_marginStart="42dp"
+                android:layout_marginTop="65.14285714dp"
+                app:cardBackgroundColor="@color/black"
+                app:cardCornerRadius="14dp">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/elias07062022"
+                    android:layout_width="22dp"
+                    android:layout_height="22.57142857dp"
+                    android:layout_gravity="center"
+                    app:cardBackgroundColor="@color/yellow"
+                    app:cardCornerRadius="14dp" />
+            </androidx.cardview.widget.CardView>
+
+            <Button
+                android:id="@+id/_08062022"
+                android:text="_08062022"
+                android:onClick="goToElias"
+                android:enabled="false"
+                android:layout_width="28dp"
+                android:layout_height="28.57142857dp"
+                android:layout_marginStart="42dp"
+                android:layout_marginTop="97.71428571dp"
+                android:background="?android:attr/selectableItemBackground"
+
+                />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="28dp"
+                android:layout_height="28.57142857dp"
+                android:layout_marginStart="42dp"
+                android:layout_marginTop="97.71428571dp"
+                app:cardBackgroundColor="@color/black"
+                app:cardCornerRadius="14dp">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/elias08062022"
+                    android:layout_width="22dp"
+                    android:layout_height="22.57142857dp"
+                    android:layout_gravity="center"
+                    app:cardBackgroundColor="@color/yellow"
+                    app:cardCornerRadius="14dp" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="28dp"
+                android:layout_height="28.57142857dp"
+                android:layout_marginStart="42dp"
+                android:layout_marginTop="130.28571428dp"
+                app:cardBackgroundColor="@color/black"
+                app:cardCornerRadius="14dp">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="22dp"
+                    android:layout_height="22.57142857dp"
+                    android:layout_gravity="center"
+                    app:cardBackgroundColor="@color/yellow"
+                    app:cardCornerRadius="14dp" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="28dp"
+                android:layout_height="28.57142857dp"
+                android:layout_marginStart="42dp"
+                android:layout_marginTop="162.85714285dp"
+                app:cardBackgroundColor="@color/black"
+                app:cardCornerRadius="14dp">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="22dp"
+                    android:layout_height="22.57142857dp"
+                    android:layout_gravity="center"
+                    app:cardBackgroundColor="@color/yellow"
+                    app:cardCornerRadius="14dp" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="28dp"
+                android:layout_height="28.57142857dp"
+                android:layout_marginStart="42dp"
+                android:layout_marginTop="195.42857142dp"
+                app:cardBackgroundColor="@color/black"
+                app:cardCornerRadius="14dp">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="22dp"
+                    android:layout_height="22.57142857dp"
+                    android:layout_gravity="center"
+                    app:cardBackgroundColor="@color/yellow"
+                    app:cardCornerRadius="14dp" />
+            </androidx.cardview.widget.CardView>
+
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="18dp"
+            android:layout_marginTop="368dp">
+
+            <FrameLayout
+                android:layout_width="120dp"
+                android:layout_height="5dp"
+                android:layout_gravity="center"
+                android:background="#121212" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="386dp">
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="320dp"
+                android:layout_marginTop="17dp"
+                android:text="5,0"
+                android:textColor="#121212"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="28dp"
+                android:layout_height="28.57142857dp"
+                android:layout_marginStart="316dp"
+                android:layout_marginTop="41.42857143dp"
+                app:cardBackgroundColor="@color/black"
+                app:cardCornerRadius="14dp">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="22dp"
+                    android:layout_height="22.57142857dp"
+                    android:layout_gravity="center"
+                    app:cardBackgroundColor="#39D353"
+                    app:cardCornerRadius="14dp" />
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="284dp"
+                android:layout_marginTop="17dp"
+                android:text="4,5"
+                android:textColor="#121212"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="28dp"
+                android:layout_height="28.57142857dp"
+                android:layout_marginStart="282dp"
+                android:layout_marginTop="41.42857143dp"
+                app:cardBackgroundColor="@color/black"
+                app:cardCornerRadius="14dp">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="22dp"
+                    android:layout_height="22.57142857dp"
+                    android:layout_gravity="center"
+                    app:cardBackgroundColor="#26A641"
+                    app:cardCornerRadius="14dp" />
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="250dp"
+                android:layout_marginTop="17dp"
+                android:text="4,0"
+                android:textColor="#121212"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="28dp"
+                android:layout_height="28.57142857dp"
+                android:layout_marginStart="248dp"
+                android:layout_marginTop="41.42857143dp"
+                app:cardBackgroundColor="@color/black"
+                app:cardCornerRadius="14dp">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="22dp"
+                    android:layout_height="22.57142857dp"
+                    android:layout_gravity="center"
+                    app:cardBackgroundColor="#006D32"
+                    app:cardCornerRadius="14dp" />
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="216dp"
+                android:layout_marginTop="17dp"
+                android:text="3,5"
+                android:textColor="#121212"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="28dp"
+                android:layout_height="28.57142857dp"
+                android:layout_marginStart="214dp"
+                android:layout_marginTop="41.42857143dp"
+                app:cardBackgroundColor="@color/black"
+                app:cardCornerRadius="14dp">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="22dp"
+                    android:layout_height="22.57142857dp"
+                    android:layout_gravity="center"
+                    app:cardBackgroundColor="#0E4429"
+                    app:cardCornerRadius="14dp" />
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="182dp"
+                android:layout_marginTop="17dp"
+                android:text="3,0"
+                android:textColor="#121212"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="28dp"
+                android:layout_height="28.57142857dp"
+                android:layout_marginStart="180dp"
+                android:layout_marginTop="41.42857143dp"
+                app:cardBackgroundColor="@color/black"
+                app:cardCornerRadius="14dp">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="22dp"
+                    android:layout_height="22.57142857dp"
+                    android:layout_gravity="center"
+                    app:cardBackgroundColor="#21262D"
+                    app:cardCornerRadius="14dp" />
+            </androidx.cardview.widget.CardView>
+
+            <FrameLayout
+                android:layout_width="170dp"
+                android:layout_height="30dp">
+
+                <FrameLayout
+                    android:layout_width="30dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="5dp"
+                    android:background="@drawable/whatsapp">
+
+                </FrameLayout>
+
+                <TextView
+                    android:id="@+id/textView13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginTop="3dp"
+                    android:text="(12) 3456-7890"
+                    android:textColor="#121212"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="170dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="37dp">
+
+                <FrameLayout
+                    android:layout_width="30dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="5dp"
+                    android:background="@drawable/instagram">
+
+                </FrameLayout>
+
+                <TextView
+                    android:id="@+id/textView14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginTop="3dp"
+                    android:text="eliaspintor"
+                    android:textColor="#121212"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+            </FrameLayout>
+
+        </FrameLayout>
+
+    </FrameLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

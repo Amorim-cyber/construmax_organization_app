@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <Button
+        android:id="@+id/back_button"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="?android:attr/selectableItemBackground"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.096"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.024"
+        />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        app:cardBackgroundColor="@color/yellow"
+        app:cardCornerRadius="35dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.096"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.024">
+
+        <FrameLayout
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/backarrow"
+            android:layout_gravity="center"
+            />
+
+    </androidx.cardview.widget.CardView>
+
+    <ScrollView
+        android:fillViewport="true"
+        android:layout_width="match_parent"
+        android:layout_height="406dp"
+        app:layout_constraintBottom_toBottomOf="@+id/cardView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.389">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="500dp">
+
+            <FrameLayout
+                android:layout_width="275dp"
+                android:layout_height="120dp"
+                android:background="@color/yellow">
+                <TextView
+                    android:id="@+id/text_View"
+                    android:layout_width="wrap_content"
+                    android:layout_marginTop="27dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="28sp"
+                    android:textStyle="bold"
+                    android:textColor="#121212"
+                    android:text="@string/elias_dos_santos" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/pintor_4_5"
+                    android:textStyle="bold"
+                    android:layout_marginTop="71dp"
+                    android:textSize="16sp"
+                    android:layout_marginStart="15dp"
+                    android:textColor="#121212"/>
+                <FrameLayout
+                    android:layout_width="80dp"
+                    android:layout_height="60dp"
+                    android:layout_marginStart="115dp"
+                    android:layout_marginTop="53dp"
+                    android:background="@drawable/rating"/>
+
+                <FrameLayout
+                    android:layout_width="80dp"
+                    android:layout_height="20dp"
+                    android:layout_marginStart="187dp"
+                    android:layout_marginTop="73dp"
+                    android:background="@color/yellow"/>
+
+            </FrameLayout>
+
+            <androidx.cardview.widget.CardView
+                android:layout_marginStart="287dp"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                app:cardBackgroundColor="@color/yellow"
+                app:cardCornerRadius="60dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.096"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.024">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/elias"
+                    android:layout_gravity="center"
+                    />
+
+            </androidx.cardview.widget.CardView>
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:height="120dp"
+                android:background="?android:attr/selectableItemBackground"
+                />
+
+            <FrameLayout
+                android:layout_marginTop="140dp"
+                android:layout_width="275dp"
+                android:layout_height="120dp"
+                android:background="@color/yellow">
+                <TextView
+                    android:id="@+id/text_View3"
+                    android:layout_width="wrap_content"
+                    android:layout_marginTop="27dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="28sp"
+                    android:textStyle="bold"
+                    android:textColor="#121212"
+                    android:text="@string/danielle_moura" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/arquiteta_4_0"
+                    android:textStyle="bold"
+                    android:layout_marginTop="71dp"
+                    android:textSize="16sp"
+                    android:layout_marginStart="15dp"
+                    android:textColor="#121212"/>
+                <FrameLayout
+                    android:layout_width="80dp"
+                    android:layout_height="60dp"
+                    android:layout_marginStart="142dp"
+                    android:layout_marginTop="53dp"
+                    android:background="@drawable/rating"/>
+
+                <FrameLayout
+                    android:layout_width="80dp"
+                    android:layout_height="20dp"
+                    android:layout_marginStart="207dp"
+                    android:layout_marginTop="73dp"
+                    android:background="@color/yellow"/>
+
+            </FrameLayout>
+
+            <androidx.cardview.widget.CardView
+                android:layout_marginTop="140dp"
+                android:layout_marginStart="287dp"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                app:cardBackgroundColor="@color/yellow"
+                app:cardCornerRadius="60dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.096"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.024">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/danielle"
+                    android:layout_gravity="center"
+                    />
+
+            </androidx.cardview.widget.CardView>
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:height="120dp"
+                android:layout_marginTop="140dp"
+                android:background="?android:attr/selectableItemBackground"
+                />
+
+            <FrameLayout
+                android:layout_marginTop="283dp"
+                android:layout_width="275dp"
+                android:layout_height="120dp"
+                android:background="@color/yellow">
+                <TextView
+                    android:id="@+id/text_View5"
+                    android:layout_width="wrap_content"
+                    android:layout_marginTop="27dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="28sp"
+                    android:textStyle="bold"
+                    android:textColor="#121212"
+                    android:text="@string/vitor_neves" />
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/construtor_3_5"
+                    android:textStyle="bold"
+                    android:layout_marginTop="71dp"
+                    android:textSize="16sp"
+                    android:layout_marginStart="15dp"
+                    android:textColor="#121212"/>
+                <FrameLayout
+                    android:layout_width="80dp"
+                    android:layout_height="60dp"
+                    android:layout_marginStart="162dp"
+                    android:layout_marginTop="53dp"
+                    android:background="@drawable/rating"/>
+
+                <FrameLayout
+                    android:layout_width="80dp"
+                    android:layout_height="20dp"
+                    android:layout_marginStart="218dp"
+                    android:layout_marginTop="73dp"
+                    android:background="@color/yellow"/>
+
+            </FrameLayout>
+
+            <androidx.cardview.widget.CardView
+                android:layout_marginTop="283dp"
+                android:layout_marginStart="287dp"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                app:cardBackgroundColor="@color/yellow"
+                app:cardCornerRadius="60dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.096"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.024">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/vitor"
+                    android:layout_gravity="center"
+                    />
+
+            </androidx.cardview.widget.CardView>
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:height="120dp"
+                android:layout_marginTop="283dp"
+                android:background="?android:attr/selectableItemBackground"
+                />
+
+            <FrameLayout
+                android:layout_marginTop="423dp"
+                android:layout_width="275dp"
+                android:layout_height="120dp"
+                android:background="@color/yellow">
+                <TextView
+                    android:id="@+id/text_View7"
+                    android:layout_width="wrap_content"
+                    android:layout_marginTop="27dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="28sp"
+                    android:textStyle="bold"
+                    android:textColor="#121212"
+                    android:text="@string/raquel_alves" />
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/engenheira_5_0"
+                    android:textStyle="bold"
+                    android:layout_marginTop="71dp"
+                    android:textSize="16sp"
+                    android:layout_marginStart="15dp"
+                    android:textColor="#121212"/>
+                <FrameLayout
+                    android:layout_width="80dp"
+                    android:layout_height="60dp"
+                    android:layout_marginStart="155dp"
+                    android:layout_marginTop="53dp"
+                    android:background="@drawable/rating"/>
+
+
+
+            </FrameLayout>
+
+            <androidx.cardview.widget.CardView
+                android:layout_marginTop="423dp"
+                android:layout_marginStart="287dp"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                app:cardBackgroundColor="@color/yellow"
+                app:cardCornerRadius="60dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.096"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.024">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/raquel"
+                    android:layout_gravity="center"
+                    />
+
+            </androidx.cardview.widget.CardView>
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:height="120dp"
+                android:layout_marginTop="423dp"
+                android:background="?android:attr/selectableItemBackground"
+                />
+        </FrameLayout>
+
+    </ScrollView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        app:cardBackgroundColor="@color/yellow"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        tools:layout_editor_absoluteX="0dp">
+
+        <FrameLayout
+            android:layout_width="380dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:background="@color/white">
+
+            <FrameLayout
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bic1" />
+
+            <FrameLayout
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="100dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bic2" />
+
+            <FrameLayout
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="192dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bic3" />
+
+            <FrameLayout
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="282dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bic5" />
+
+        </FrameLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
