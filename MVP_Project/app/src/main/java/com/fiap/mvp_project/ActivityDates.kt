@@ -1,5 +1,6 @@
 package com.fiap.mvp_project
 
+import android.annotation.SuppressLint
 import android.content.Intent
 import android.graphics.Color
 import android.os.Bundle
@@ -13,6 +14,7 @@ import com.fiap.mvp_project.model.User
 
 class ActivityDates : AppCompatActivity() {
 
+    @SuppressLint("UseCompatLoadingForDrawables")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_dates)
