@@ -17,13 +17,13 @@ Qualquer pessoa que baixasse o aplicativo via smartphone com sistema operacional
 
 O aplicativo está disponibilizado na <a href="https://play.google.com/store/apps/details?id=com.fiap.mvp_project">loja</a> do Google Play. Foram mais de 5 downloads até o momento. Fique a vontade para baixar e testar.
 
-<img src="assets/loja.PNG" >
+<img src="assets/loja.png" >
 
 <hr>
 
 <h3>Sobre o formulário</h3>
 
-Criamos este <a href="https://docs.google.com/forms/d/e/1FAIpQLSdJ-DNnU9cLGzs5ppXb6LRHFRW4uTFdkyCFJnONQ2iRhS-njg/viewform">formulário</a> para o usuário expressar sua opinião a respeito da nossa ideia. Também demos abertura para sugestões. <img src="assets/pesquisa.PNG">
+Criamos este <a href="https://docs.google.com/forms/d/e/1FAIpQLSdJ-DNnU9cLGzs5ppXb6LRHFRW4uTFdkyCFJnONQ2iRhS-njg/viewform">formulário</a> para o usuário expressar sua opinião a respeito da nossa ideia. Também demos abertura para sugestões. <img src="assets/pesquisa.png">
 
 <hr>
 
